@@ -1,0 +1,15 @@
+#include <stdio.h>
+int sicaliculator(){
+    int p,t,r,si;
+    printf("enter the principal\n");
+    scanf("%d",&p);
+    printf("enter the year\n");
+    scanf("%d",&t);
+    printf("enter rate of interest\n");
+    scanf("%d",&r);
+    si = (p*t*r)/100;
+    printf("simple interest=%d",si);
+}
+int main()
+{   sicaliculator();
+}
