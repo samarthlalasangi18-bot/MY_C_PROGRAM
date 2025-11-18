@@ -1,0 +1,26 @@
+int main()
+{
+   int a,b,result;
+   char operator;
+   printf("enter an operator(+,-,*,/):");
+   scanf("%c",&operator);
+   printf("enter the two numbers\n");
+   scanf("%d%d",&a,&b);
+   switch(operator)
+   {
+       
+   case '+' :result=a+b;
+   printf("The sum of two numbers is %d\n",result);
+   break;
+   case '-' :result=a-b;
+   printf("The difference of two numbers is %d\n",result);
+   break;
+   case '*' :result=a*b;
+   printf("The product of two numbers is %d\n",result);
+   break;
+   case '/' :result=a/b;
+   printf("The quotient of two numbers is %d\n",result);
+   break;
+   default :printf("invalid operator\n");
+}
+}
