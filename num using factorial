@@ -1,0 +1,12 @@
+#include<stdio.h>
+int factorial(){
+    int n =7,i;
+    int fact=1;
+    for(i=1;i<=7;i++){
+        fact=fact*i;
+    }
+    printf("factorial of: %d",fact);
+}
+int main(){
+    factorial();
+}
